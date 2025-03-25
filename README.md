@@ -12,4 +12,10 @@ the database, no migrations required! If migrations are needed, `Atlas` can gene
 
 ## Developing
 
+### Requirements
+
+- [Atlas](https://atlasgo.io/)
+
+### Applying changes to the database
+
 1. Command `make apply` to apply the changes into the database. Currently just using `sqlite`. This command will generate a database file if it does not exists
